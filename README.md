@@ -9,7 +9,14 @@ Web scraper to automate time sheet entry in Cybershift
 
 ## How To Use It
 
-**To Automatically do you time,  follow these steps:**
+**To Automatically do your time,  follow these steps:**
 1. Go to [cybershift](https://nycdoe.cybershift.net/) (You don't have to, but please for everyone's sake use Chrome)
-2. Select the period of time corresponding to the current pay period. Do not select a period that includes days that you have already entered. I put in some protections against editing already entered time. But idk exactly how Cybershift handles changes to those "readonly" fields. So, to be safe just select days in the current pay period.
-3. If you're using Chrome, copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js]
+2. Select the period of time corresponding to the *current* pay period.
+3. If you're using Chrome, copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js](https://github.com/nries1/AutoShift/blob/master/doTime-oldBrowserSupport.js)
+4. In your Cybershift Bubblesheet window right click on the screen and select inspect
+5. In the developer console that appears, select "Console"
+6. In the console, paste in the code that you copied in step 3 and press enter.
+7. In the console paste in the following code: `doTime('09:00 AM', '11:30 AM', '12:30 PM', '04:59 PM');` and press enter. Feel free to edit the strings in the code to match your assigned schedule. They are in the following order: start time, lunch start, lunch end, end time.
+8. After you press enter you should see your bubble sheet populate with the correct times and code.
+9. Finally click Save Employee Records and your done :)
+
