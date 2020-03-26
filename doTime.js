@@ -14,6 +14,7 @@ let doTime = (start, lunchStart, lunchEnd, end) => {
     const cells = [..._r.cells];
     cells.forEach(_c => {
       if (!_c) return;
+      if (_c.innerText === '00:00') _c.innerText = '06:59';
       const field = _c.firstElementChild;
       if (!field) return;
       if (field.readonly) return;
