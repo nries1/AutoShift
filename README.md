@@ -12,4 +12,4 @@ Web scraper to automate time sheet entry in Cybershift
 **To Automatically do you time,  follow these steps:**
 1. Go to [cybershift](https://nycdoe.cybershift.net/) (You don't have to, but please for everyone's sake use Chrome)
 2. Select the period of time corresponding to the current pay period. Do not select a period that includes days that you have already entered. I put in some protections against editing already entered time. But idk exactly how Cybershift handles changes to those "readonly" fields. So, to be safe just select days in the current pay period.
-3. If you're using Chrome, copy the code
+3. If you're using Chrome, copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js]
