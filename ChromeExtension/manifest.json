@@ -1,11 +1,17 @@
 {
   "name": "AutoShift",
-  "version": "1.0",
+  "version": "0.0.0.1",
   "description": "Web scraper to automate time sheet entry in Cybershift",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
   "options_page": "options.html",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
   "page_action": {
