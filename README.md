@@ -1,5 +1,7 @@
 # AutoShift
-Web scraper to automate time sheet entry in Cybershift
+Autoshift is Web scraper to automate time sheet entry in Cybershift.
+
+This Chrome Extension is currently unpublished. If you would like me to publish it, please leave me a comment in Slack, Teams, or Github
 
 *The automate function:*
 `doTime(startTime, LunchStart, LunchEnd, EndTime);`
