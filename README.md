@@ -27,7 +27,7 @@ AutoShift has been submitted to Google for review so that it can be published as
 **Done this kind of thing before?**
 1. Go to [cybershift](https://nycdoe.cybershift.net/) (You don't have to, but please for everyone's sake use Chrome)
 2. Log in and select the period of time corresponding to the *current* pay period. Click Go. Click BubbleSheet.
-3. If you're using Chrome, copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js](https://github.com/nries1/AutoShift/blob/master/doTime-oldBrowserSupport.js)
+3. Copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js](https://github.com/nries1/AutoShift/blob/master/doTime-oldBrowserSupport.js)
 4. On the bubblesheet page, open your brower's developer console (In Chrome press Cmd+Option+j. In other browsers right click browser window and in the developer console that appears, select "Console").
 6. In the console, paste in the code that you copied in step 3 and press enter.
 8. After you press enter you should see your bubble sheet populate with the correct times and code.
