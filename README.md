@@ -1,7 +1,7 @@
 # AutoShift
 Autoshift is Web scraper to automate time sheet entry of work from home hours in Cybershift.
 
-Publication of AutoShift as a Chrome Extension is under review by Google.
+It's available as a Chrome extension by invite link.
 
 ## What Is It?
  AutoShift is just vanilla JavaScript. It's written to run in the developer console of any web browser (Big thanks to [Babel](https://babeljs.io/) for legacy browser and Microsoft browser support).
@@ -25,7 +25,7 @@ AutoShift has been submitted to Google for review so that it can be published as
 7. Click "Do My Time"
 
 **Done this kind of thing before?**
-1. Go to [cybershift](https://nycdoe.cybershift.net/) (You don't have to, but please for everyone's sake use Chrome)
+1. Go to [cybershift](https://nycdoe.cybershift.net/)
 2. Log in and select the period of time corresponding to the *current* pay period. Click Go. Click BubbleSheet.
 3. Copy the code from [doTime.js](https://github.com/nries1/AutoShift/blob/master/doTime.js). If you're using a Microsoft browser or a very old browser, copy the code from [doTime-oldBrowserSupport.js](https://github.com/nries1/AutoShift/blob/master/doTime-oldBrowserSupport.js)
 4. On the bubblesheet page, open your brower's developer console (In Chrome press Cmd+Option+j. In other browsers right click browser window and in the developer console that appears, select "Console").
