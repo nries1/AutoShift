@@ -16,7 +16,7 @@ AutoShift has been submitted to Google for review so that it can be published as
 **To Automatically do your time,  follow these steps:**
 
 **New to JavaScript?**
-1. Download the ChromeExtension folder located in [this repo.](https://github.com/nries1/AutoShift)
+1. Download the ChromeExtension.zip file located in [this repo.](https://github.com/nries1/AutoShift)
 2. In Google Chrome, enter chrome://extensions/ into the url bar
 3. In the menu at the top, click Load Unpacked
 4. Select the ChromeExtension folder and upload it
