@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 80px;
+        outline: none;
+        border-radius: 5px;
+        padding: 5px;
+        border-style: none;
+        color: white;
+        background-color: dodgerblue;
+        cursor: pointer;
+      }
+      body {
+        width: 200px;
+        height: 300px;
+      }
+      #status {
+        font-size: 14px;
+      }
+      .time-select-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .title {
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+      .input-group {
+        display: flex;
+        align-items: center;
+        align-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AutoShift</h1>
+    <div>Auto-set your WFH hours.</div>
+    <br />
+    <div class="title">Scheduled Start Time</div>
+    <div class="time-select-container">
+      <div class="input-group"><input id="800" type="radio" name="start" value="8:00 AM"><label for="800">8:00 AM</label></div>
+      <div class="input-group"><input id="830" type="radio" name="start" value="8:30 AM"><label for="830">8:30 AM</label></div>
+      <div class="input-group"><input id="900" type="radio" name="start" value="9:00 AM"><label for="900">9:00 AM</label></div>
+      <div class="input-group"><input id="930" type="radio" name="start" value="9:30 AM"><label for="930">9:30 AM</label></div>
+    </div>
+    <br />
+    <div class="title">Scheduled End Time</div>
+    <div class="time-select-container">
+      <div class="input-group"><input id="400" type="radio" name="end" value="4:00 PM"><label for="400">4:00 PM</label></div>
+      <div class="input-group"><input id="430" type="radio" name="end" value="4:30 PM"><label for="430">4:30 PM</label></div>
+      <div class="input-group"><input id="500" type="radio" name="end" value="4:59 PM"><label for="500">5:00 PM</label></div>
+      <div class="input-group"><input id="530" type="radio" name="end" value="5:30 PM"><label for="400">5:30 PM</label></div>
+    </div>
+    <br />
+    <div>
+      <button id="doTime">DO TIME</button>
+    </div>
+    <br />
+    <br />
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
