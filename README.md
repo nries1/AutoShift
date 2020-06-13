@@ -2,7 +2,7 @@
 Autoshift is Web scraper to automate time sheet entry of work from home hours in Cybershift.
 UPDATE: AutoShift can no longer be used in browsers other than Google Chrome.
 
-It's available as a Chrome extension by invite link.
+It's available as a Chrome extension here: https://chrome.google.com/webstore/detail/autoshift/hdmolilhlogincpaomciebdgnhjnngbn.
 
 ## What Is It?
  AutoShift is just vanilla JavaScript. It's written to run in the developer console of any web browser (Big thanks to [Babel](https://babeljs.io/) for legacy browser and Microsoft browser support).
